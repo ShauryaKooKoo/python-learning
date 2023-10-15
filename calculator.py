@@ -1,32 +1,32 @@
 print("please select a operation")
-print("press 1 to add")
-print("press 2 to subtract")
-print("press 3 to divide")
-print("press 4 to multiply")
-print("press 5 to the power of 2")
+print("type add to do addition")
+print("type sub to subtract")
+print("type div to divide")
+print("type mult to multiply")
+print("type power to put the power of 2")
 operation = input()
 
     
-if int(operation) == 1:
+if operation == "add":
     num1 = input("enter first number: ")
     num2 = input("enter second number: ")
     print("your answer is " + str(int(num1) +int(num2)) )
 
-elif int(operation) == 2:
+elif operation == "sub":
     num1 = input("enter first number: ")
     num2 = input("enter second number: ")
     print("your answer is " + str(int(num1) -int(num2)) )
     
-elif int(operation) == 3:
+elif operation == "div":
     num1 = input("enter first number: ")
     num2 = input("enter second number: ")
     print("your answer is " +str(int(num1) /int(num2)) )
     
-elif int(operation) == 4:
+elif operation == "mult":
     num1 = input("enter first number: ")
     num2 = input("enter second number: ")
     print("your answer is " +str(int(num1) *int(num2)))
-elif int(operation) == 5:
+elif operation == "power":
      num1 = input("enter number:")
      print("your answer is " +str(int(num1) * int(num1)))
 else:
