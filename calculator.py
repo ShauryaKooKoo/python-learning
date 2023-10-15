@@ -30,7 +30,7 @@ elif int(operation) == 5:
      num1 = input("enter number:")
      print("your answer is " +str(int(num1) * int(num1)))
 else:
-    print("not valid")
+    print("please try a different command")
     
     
     
